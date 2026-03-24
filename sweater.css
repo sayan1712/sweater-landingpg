@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "kalia";
+    src: url("./font/Almond Mocca.otf");
+}
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+html , body {
+     width:  100%;
+     height: 100% ;
+     
+}
+
+.main{
+       width:100% ;
+       height: 100%;
+       color: rgb(173, 33, 159);
+       background-color: rgb(255, 255, 255);
+       position: relative;
+}
+  #nav{
+       padding : 20px;
+  }
+  #nav a{
+        font-family: "kalia";
+        text-align: center;
+        text-decoration: none;
+        color: rgb(7, 4, 1);
+        padding: 20px;
+        font-weight: 200px;
+        font-size: 20px;
+}
+.main>h1 {
+    position:absolute;
+    left: 25%;
+    top:20% ;
+    font-family: "kalia";
+    font-size: 220px;
+    font-weight: 200px;
+    color: black;
+}
+.bottomleft{
+       position: absolute;
+       left:4%;
+       bottom: 15%;
+       height: 200px;
+       width: 450px;
+}
+.bottomleft>h3{
+        font-family: "kalia";
+        text-align: center;
+        text-decoration: none;
+        color: rgb(101, 146, 140);
+        font-size: 30px;
+}
+
+.bottomleft>p{
+        font-family: "kalia";
+        text-align: center;
+        text-decoration: none;
+        color: rgb(204, 56, 125);
+        font-weight: 100px;
+        font-size: 30px;
+}
+
+
+.bottomleft>h4{
+        font-family: "kalia";
+        text-align: center;
+        text-decoration: none;
+        padding-top: 10px;
+        color: rgb(101, 146, 140);
+        font-weight: 100px;
+        font-size: 30px;
+}
+
+.main>.imgs>#img1,#img2,#img3{
+     position:absolute; 
+     height: 320px;
+     width: 320px;
+}
+
+
+#img3{
+      position:absolute;
+      top:35%;
+      left: 50%;
+      opacity: 50%;
+      
+}
+
+#img1{
+      position:absolute;
+      bottom: 60%;
+      right: 27%;
+      opacity: 70%;
+}
+
+#img2{
+      position:absolute;
+      top:31%;
+      right: 17%;
+      opacity: 40%;
+      
+}
+
+.main>.footer{
+            height: 50px;
+            width: 100%;
+            position: absolute;
+            bottom: 2%;
+
+
+}
+.main>.footer>.footerleft{     
+             font-family: "kalia";
+             font-size: 25px;
+             height: 30px;
+             width:400px;
+             padding-left: 20px;
+             position:absolute;
+             left: 2%;
+}
+
+.main>.footer>.footerright a{
+            font-family: "kalia";
+            font-size: 25px;
+             height: 30px;
+             width:300px;
+             padding-right: 20px;
+             text-decoration: none;
+             position:absolute;
+             right: 2%;
+
+
+}
+
+
+
+
